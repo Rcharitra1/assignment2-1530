@@ -1,0 +1,418 @@
+html{
+font-family: 'B612' ,sans-serif;
+}
+
+@font-face {
+    font-family: 'milkshakeregular';
+    src:url('../fonts/milkshake-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu-btn >svg{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.menu-btn svg  path{
+  fill:#dbecec;
+}
+.menu-btn{
+  display: flex;
+  align-items: center;
+}
+header{
+  background-color: #171715;
+}
+header > div >h1{
+  color:#dbecec;
+  margin: 0;
+  font-family: milkshakeregular;
+  font-size: 2rem;
+}
+header >div{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+}
+nav{
+  background-color: #171715;
+  position: absolute;
+  top:100%;
+  left: 0;
+  right: 0;
+  padding: 0 1rem 4%;
+  display: none;
+
+}
+nav  ul{
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  padding: 1% 0;
+  flex-wrap:wrap;
+  border-bottom: 2px solid #706a5e;
+}
+nav ul li{
+  flex-basis: 100%;
+  margin:2% 0;
+}
+a{
+  text-decoration: none;
+}
+nav ul li a{
+  color:#dbecec;
+  font-size: 1rem;
+}
+
+nav ul li a:hover,
+nav ul li a:active{
+  font-style: italic;
+
+}
+
+nav ul li a:hover svg path,
+nav ul li a:active svg path{
+  fill:#c6552c;
+}
+nav ul li svg{
+  width: 1.5rem;
+  height: 1.5rem;
+
+}
+nav ul li svg path{
+  fill:#bc512b;
+}
+nav div{
+  padding:2% 0;
+}
+nav div a{
+  padding:0.5rem 1rem;
+  color:#dbecec;
+  font-size: 1rem;
+  border:1px solid white;
+
+}
+nav div a:active, nav div a:hover{
+  background-color: #dbecec;
+  color:black;
+}
+.banner{
+  background-image: url('../img/banner-bg-mobile.webp');
+  background-position: bottom center;
+  background-size: cover;
+  text-align: center;
+  min-height: 450px;
+  display: flex;
+  align-items: flex-end;
+}
+.banner > div>article{
+  margin: 10% 1rem 0;
+  padding:2% 6%;
+  background: #dbecec;
+}
+.banner >div > article >h2{
+  font-family:milkshakeregular;
+  font-size:2.5rem;
+  margin-bottom: 0;
+}
+.banner >div> article> h2::after{
+  content: "_";
+  font-family: Arial;
+  color: #c5552b;
+  display: block;
+  padding-bottom: 2rem;
+  line-height: 1px;
+}
+
+main > section:first-child > div>p:first-child{
+  color:#c6552c;
+  font-size:1rem;
+  font-weight: bold;
+  font-family: 'Arial Black';
+  margin-bottom: 0;
+}
+
+main h3{
+  font-size: 1.875rem;
+  font-family: milkshakeregular;
+  color:#dbecec;
+  margin-top: 0;
+
+}
+main {
+  background-color: #1d1d1c;
+}
+
+
+
+main >section:first-child{
+  padding:4rem 1rem;
+}
+
+main > section:first-child> div >a{
+  padding:0.5rem 1rem;
+  color:#dbecec;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+
+}
+
+main > section:first-child> div > p:last-of-type{
+  color:white;
+  padding-bottom: 4%;
+}
+
+main > section:first-child> div> a:active,
+main > section:first-child> div >a:hover{
+  background-color: #dbecec;
+  color:black;
+}
+main > section >p{
+  font-size:1rem;
+  color:#dbecec;
+
+}
+main > section:last-child> div> img{
+  width: 100%;
+
+}
+main> section:last-child{
+  position: relative;
+  background-color: #dbecec;
+}
+main > section:last-child>div{
+  padding: 20% 0;
+}
+main> section:last-child> div >div:first-child{
+  text-align: left;
+  background-color: #1c1c1b;
+  margin: 0;
+  position: absolute;
+  left:1rem;
+  right: 1rem;
+  top:4rem;
+  white-space: nowrap;
+  padding:2%;
+}
+
+main > section:last-child > div > div:first-child > h3{
+  margin: 0;
+}
+main >section:last-child > div > div:first-child>p:first-child{
+  color:#c6552c;
+  font-size:1rem;
+  font-weight: bold;
+  font-family: 'Arial Black';
+  padding-bottom: 1%;
+}
+
+main > section:last-child  >div > div:last-child ul{
+  color:black;
+  font-family: 'B612', sans-serif;
+}
+
+main > section:last-child >div > div:last-child >a{
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #c5562c;
+  margin-left: 1rem;
+  font-family: 'B612', sans-serif;
+  color:black;
+}
+
+main > section:last-child >div > div:last-child >a:hover,
+main > section:last-child >div > div:last-child >a:active{
+  background-color: #c5552b;
+  color:white;
+}
+
+footer{
+  position:inherit;
+  display: block;
+  background-color: #1b1b19;
+  padding: 4rem 1rem;
+  text-align: right;
+}
+
+footer > div >h3{
+  font-size: 3rem;
+  color:#171816;
+  font-weight: bold;
+  font-family:'Ariel Black', sans-serif;
+
+}
+footer > div>p{
+  font-style: italic;
+  color:#ffffff;
+}
+
+@media (min-width:350px){
+  footer > div > h3{
+    font-size: 4.375rem;
+  }
+}
+@media (min-width:764px) {
+  header div{
+    position: static;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+    padding: 1rem 0 ;
+  }
+  header >div > h1{
+    flex-basis: calc(100% / 4 );
+
+  }
+  .menu-btn{
+    display: none;
+  }
+  nav{
+    position: static;
+    display: flex !important;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    flex-basis: calc(100% - ((100%) / 4));
+  }
+  nav ul{
+    flex-basis: 50%;
+    border: none;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    margin: 0;
+  }
+  nav ul li{
+    flex-basis: calc(100% / 3);
+    white-space: nowrap;
+  }
+  .banner{
+    background-image:url('../img/banner-bg-big.webp');
+    position: relative;
+  }
+  .banner> div{
+    display: flex;
+  }
+  .banner >div> article{
+    flex-basis: 40%;
+    margin-left:15%;
+    position: relative;
+    top:4rem;
+  }
+  main > section:first-child{
+    display: flex;
+    justify-content: flex-end;
+  }
+  main > section:first-child > div{
+    flex-basis: 40%;
+    margin-right: 1.5rem;
+   }
+
+  main > section:last-child > div{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding:0 0 4rem;
+  }
+
+  main > section:last-child> div > div:first-child{
+    flex-basis: 100%;
+    margin-left: 13%;
+    margin-right: 46%;
+    position: relative;
+    top:4rem;
+  }
+  main > section:last-child>div >img{
+    width: 40%;
+    margin-left: 1.5rem;
+  }
+
+  main > section:last-child>div > div:first-child > h3{
+    margin-bottom: 0;
+  }
+  main > section:last-child>div >div:first-child > p{
+  margin: 0;
+  }
+
+
+  main >section:last-child> div > div:last-child{
+    flex-basis: 41%;
+    padding-top: 6%;
+  }
+  main >section:last-child> div > div:last-child>ul{
+  padding-left: 0;
+  }
+  main >section:last-child> div > div:last-child>a{
+  margin-left: 0;
+  border-top:1px solid #c5562c;
+  }
+  footer > div{
+    margin: 0 1.5rem;
+  }
+  footer> div> p{
+    text-align: left;
+    color:#dbecec;
+  }
+  footer > div > h3{
+    font-size: 9.375rem;
+    text-align: right;
+    margin: 0;
+    font-weight: bolder;
+  }
+
+
+}
+
+@media (min-width:1000px) {
+  header > div > h1{
+    flex-basis: calc(100% / 3);
+  }
+  header > div > nav{
+    flex-basis: calc(100% - (100% / 3));
+  }
+
+}
+@media (min-width:1300px){
+
+  main > section:first-child{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .container{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .banner > div >article{
+    margin-left: 13%;
+  }
+  main > section:first-child > div{
+      margin-right: 0;
+  }
+  main > section:first-child{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main> section:last-child>div>img{
+    margin-left:0;
+  }
+  main> section:last-child>div>div:last-child{
+        flex-basis: 40%;
+  }
+  main> section:last-child>div>div:last-child>ul{
+      padding-left: 1rem;
+  }
+  main > section:last-child>div>div:first-child{
+    left:0;
+  }
+  footer > div >h3{
+    padding-left: 30%;
+  }
+  header div{
+    padding: 1rem 0;
+    margin: 0;
+  }
+  footer{
+    padding:4rem 0;
+  }
+}
